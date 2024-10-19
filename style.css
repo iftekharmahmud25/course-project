@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* nav section start here */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+.logo {
+  border: 2px solid rgb(98, 225, 98);
+  box-shadow: 3px 3px 3px 3px;
+  padding: 5px;
+  border-radius: 0 10px 0px 20px;
+  color: green;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.home {
+  color: rgb(98, 225, 98);
+}
+
+.signIn {
+  background: rgb(98, 225, 98);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+/* nav section ends here */
+
+/* banner section start here */
+.banner {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.banner h4 {
+  font-size: 20px;
+}
+.name {
+  color: rgb(98, 225, 98);
+  text-transform: uppercase;
+  font-size: 27px;
+  margin-left: 10px;
+}
+
+.banner p {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.search {
+  margin-top: 15px;
+  padding: 8px;
+  border-right: none;
+  border: none;
+  background-color: rgba(241, 235, 235, 0.959);
+}
+
+.search-button {
+  padding: 7px;
+  border: none;
+  border-left: none;
+  border-radius: 0px 10px 10px 0;
+  background-color: rgb(98, 225, 98);
+  color: white;
+  margin-left: -5px;
+}
+
+
+ /* Rating start here */
+
+ .rating{
+   display: flex;
+   font-size: 25px;
+   gap: 20px;
+   height: auto;
+   
+  
+   
+   
+   
+ }
+.rating h6{
+    font-size: 27px;
+}
+ .enroll{
+  
+  color: red;
+  font-size: ;
+
+
+  
+  
+  
+  
+ }
