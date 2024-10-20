@@ -45,6 +45,9 @@ ul li {
 .banner {
   margin-top: 40px;
   margin-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  
 }
 .banner h4 {
   font-size: 20px;
@@ -78,31 +81,82 @@ ul li {
   margin-left: -5px;
 }
 
+/* Rating start here */
 
- /* Rating start here */
-
- .rating{
-   display: flex;
-   font-size: 25px;
-   gap: 20px;
-   height: auto;
-   
+.rating {
   
-   
-   
-   
- }
-.rating h6{
-    font-size: 27px;
+  font-size: 25px;
+  gap: 20px;
+  height: auto;
+  display: flex;
+  
 }
- .enroll{
-  
+.rating h6 {
+  font-size: 27px;
+}
+.enroll {
   color: red;
-  font-size: ;
+}
 
+/* card start from here */
 
+.card{
+   height: 350px;
+   width: 230px;
+
+   box-shadow: 1px 1px  3px 5px;
+   padding-top: 20px;
+   padding-left: 10px;
+   border-radius: 10px;
+   position: relative;
+   left: 100px;
+   
+   
+
+}
+
+.card-banner{
+  display: flex;
   
+}
+.banner-img{
+  border-radius: 50%;
+}
+.card h5{
+  margin-left: 50px;
+  padding-top: 10px;;
+}
+.card .li{
+   color: rgb(34, 104, 190);
+   font-size: 14px;
+   
+}
+.card-hr{
+   margin-top: 10px;
+   margin-left: 20px;
+   border: 1px solid black;
+   width: 150px;
+   margin-bottom: 20px;
+   
+}
+.card-button{
+   font-size: 13px;
+   border-radius: 10px;
+   background-color: rgba(238, 232, 232, 0.338);
+   margin-top: 5px;
+   margin-left: 10px;
+   padding: 2px;
+   
+}
+.update{
+  color: black ;
+}
+
+.profile{
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  display:  flex;
+  margin-left: 70px;
   
-  
-  
- }
+}
